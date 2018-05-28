@@ -21,6 +21,7 @@ fun main(args: Array<String>) {
     println("$param5 是一个Float类型的数字的字面值")
     println("这是一个关于逻辑运算符的使用" + BooleanTest1(true, true) + BooleanTest2(false, false) + BooleanTest3(true))
     ArrayTest1()
+    StringTest()
 
 }
 
@@ -42,6 +43,9 @@ fun BooleanTest2(a: Boolean, b: Boolean): Boolean = a && b
  */
 fun BooleanTest3(a: Boolean): Boolean = !a
 
+/***
+ * 数组的几种创建方式
+ */
 fun ArrayTest1() {
     /***
      * 使用arrayOf创建一个包含一定的元素的数据  其中元素的类型自定义
@@ -65,4 +69,24 @@ fun ArrayTest1() {
      */
     val array4 = intArrayOf(1, 2, 3, 4)
 
+}
+
+/***
+ * 获取字符长指定位置的字符
+ */
+fun StringTest() {
+    /***
+     * 使用 + 进行字符串之间的拼接
+     *
+     */
+    val string = "我是一个字符串"
+    val string2 = """
+        我是一个超级厉害的字符串
+        你就说吧 你想创建什么样的字符串
+        输入进来就行了哈哈
+        """
+    for (item in string) {
+        println("字符串中的字符$item")
+    }
+    println(string2)
 }
