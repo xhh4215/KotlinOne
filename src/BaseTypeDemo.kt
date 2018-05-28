@@ -19,7 +19,50 @@ fun main(args: Array<String>) {
     println("$param2 是一个Longl类型的数字的字面值")
     println("$param4 是一个Double类型的数字的字面值")
     println("$param5 是一个Float类型的数字的字面值")
-
+    println("这是一个关于逻辑运算符的使用" + BooleanTest1(true, true) + BooleanTest2(false, false) + BooleanTest3(true))
+    ArrayTest1()
 
 }
 
+/**
+ * 逻辑  或 操作
+ * 有真即真  全假为假
+ */
+fun BooleanTest1(a: Boolean = true, b: Boolean = false): Boolean = a || b
+
+/***
+ * 逻辑  与 操作
+ * 同真为真  有假即假
+ */
+fun BooleanTest2(a: Boolean, b: Boolean): Boolean = a && b
+
+/***
+ * ture 取非 为false
+ * false 取非 为true
+ */
+fun BooleanTest3(a: Boolean): Boolean = !a
+
+fun ArrayTest1() {
+    /***
+     * 使用arrayOf创建一个包含一定的元素的数据  其中元素的类型自定义
+     */
+    val array = arrayOf(1, 2, 3, 4, 5, 6)
+    /***
+     * arrayOfNulls
+     * 创建一个大小为10  元素的类型为Int类型的 空的数组
+     */
+    val array2 = arrayOfNulls<Int>(10)
+    /**
+     * 使用Array的构造器创建   需要的参数是一个指定元素个数的整数，和一个初始化数据的lambda表达式
+     */
+    val array3 = Array(10, { i -> "我是使用lambad创建的数组" + i })
+    for (item in array3) {
+        println(item)
+    }
+    /***
+     * 创建分装好的原生的数组数据类型  ByteArray  IntArray  。。。。
+     * 数据类型无装箱的开销
+     */
+    val array4 = intArrayOf(1, 2, 3, 4)
+
+}
