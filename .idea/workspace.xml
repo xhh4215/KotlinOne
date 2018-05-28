@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c994f025-a34f-4db9-a625-39b1e86fc2e7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ControlFlowDemo.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ControlFlowDemo.kt" afterPath="$PROJECT_DIR$/src/ControlFlowDemo.kt" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,10 +45,10 @@
       <file leaf-file-name="ControlFlowDemo.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ControlFlowDemo.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-335">
-              <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+            <state relative-caret-position="201">
+              <caret line="123" column="27" lean-forward="false" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
               <folding>
-                <element signature="e#23#85#0" expanded="true" />
+                <element signature="e#23#104#0" expanded="true" />
                 <element signature="n#!!doc;n#IfTest1#0" expanded="false" />
                 <element signature="n#!!doc;n#IfTest3#0" expanded="false" />
               </folding>
@@ -284,12 +284,12 @@
       <option name="presentableId" value="Default" />
       <updated>1527488709539</updated>
       <workItem from="1527488713439" duration="1631000" />
-      <workItem from="1527493976369" duration="4212000" />
+      <workItem from="1527493976369" duration="5258000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5843000" />
+    <option name="totallyTimeSpent" value="6889000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -391,10 +391,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ControlFlowDemo.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-335">
-          <caret line="13" column="17" lean-forward="true" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        <state relative-caret-position="201">
+          <caret line="123" column="27" lean-forward="false" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
           <folding>
-            <element signature="e#23#85#0" expanded="true" />
+            <element signature="e#23#104#0" expanded="true" />
             <element signature="n#!!doc;n#IfTest1#0" expanded="false" />
             <element signature="n#!!doc;n#IfTest3#0" expanded="false" />
           </folding>
