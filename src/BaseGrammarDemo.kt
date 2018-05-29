@@ -39,3 +39,11 @@ data class Person(val name:String,val age:Int)
   fun Default(value:String="函数的默认值的练习和使用"):Unit{
        println(value)
   }
+
+
+class Rectangle(val height:Int,val width:Int){
+    val isSquare:Boolean
+    get() {
+        return height ==width
+    }
+}
